@@ -1,16 +1,17 @@
 import json
 import os
 
-VIDEO_JSON_PATH = "data/v2.json"
-VIDEO_INFO_JSON_PATH = "data/v2_info.json"
-OUTPUT_JSON_PATH = "data/v2_reformatted.json"
+VIDEO_INFO_JSON_PATH = "data/v1_0_info.json"
+VIDEO_JSON_PATH = "data/v1_1_decoded.json"
+OUTPUT_JSON_PATH = "data/v1_2_reformatted.json"
 
-SKIP_VIDEOS = ["0000110.mp4", "0000112.mp4"]
+# SKIP_VIDEOS = ["0000110.mp4", "0000112.mp4"]
+SKIP_VIDEOS = []
 
-with open(VIDEO_JSON_PATH, "r") as f:
+with open(VIDEO_JSON_PATH, "r", encoding='utf-8') as f:
     video_data = json.load(f)
 
-with open(VIDEO_INFO_JSON_PATH, "r") as f:
+with open(VIDEO_INFO_JSON_PATH, "r", encoding='utf-8') as f:
     video_info_data = json.load(f)
 
 combined_data = []
@@ -55,7 +56,7 @@ for video in video_data:
 
     combined_data.append(combined_video)
 
-with open(OUTPUT_JSON_PATH, "w") as f:
-    json.dump(combined_data, f, indent=4)
+with open(OUTPUT_JSON_PATH, "w", encoding='utf-8') as f:
+    json.dump(combined_data, f, ensure_ascii=False, indent=4)
 
 print("Combined JSON data saved successfully.")
