@@ -75,7 +75,7 @@ def list_empty_labels(data, output_dir):
 def plot_action_distribution(df, output_dir):
     counts = {
         "Strokes": df["Strokes"].value_counts(),
-        "Negation": df["Negation"].value_counts(),
+        # "Negation": df["Negation"].value_counts(),
         "Action": df["Action"].value_counts()
     }
     fig, axes = plt.subplots(1, 3, figsize=(18, 5))
@@ -103,12 +103,14 @@ def count_action_occurrences(df, output_dir):
     action_counts.to_csv(output_path)
 
 def main():
-    output_dir = "analysis"
+    version_name= "2_simplified_labels"
+    output_dir = f"analysis/{version_name}"
     os.makedirs(output_dir, exist_ok=True)
 
-    data = load_data([f"data/{version}_3_translated.json" for version in ["v1", "v2"]])
+    data = load_data([f"data/{version}_4_simplified.json" for version in ["v1", "v2"]])
     labels = [event["label"].split('_') for video in data for event in video["events"]]
-    df = pd.DataFrame(labels, columns=["Strokes", "Negation", "Action"])
+    df = pd.DataFrame(labels, columns=["Strokes", "Action"])
+    # df = pd.DataFrame(labels, columns=["Strokes", "Negation", "Action"])
 
     list_labels(data, output_dir)
     list_empty_labels(data, output_dir)
