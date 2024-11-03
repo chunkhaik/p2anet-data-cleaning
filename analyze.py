@@ -51,7 +51,6 @@ def list_labels(data, output_dir):
         writer = csv.DictWriter(f, fieldnames=["video_id", "event_id", "label_parts"])
         writer.writeheader()
         writer.writerows(split_labels)
-    print(f"Split labels saved as CSV at {output_path}")
 
 def list_empty_labels(data, output_dir):
     empty_part_labels = []
@@ -70,7 +69,6 @@ def list_empty_labels(data, output_dir):
         writer = csv.DictWriter(f, fieldnames=["video_id", "event_id", "label_parts"])
         writer.writeheader()
         writer.writerows(empty_part_labels)
-    print(f"Empty labels saved as CSV at {output_path}")
 
 def plot_action_distribution(df, output_dir):
     counts = {
@@ -97,10 +95,14 @@ def plot_labels_per_event(data, output_dir):
     ax.set_ylabel("Frequency")
     save_plot(fig, os.path.join(output_dir, "plot_labels_per_event.jpg"))
 
-def count_action_occurrences(df, output_dir):
+def count_labels(df, output_dir):
     action_counts = df["Action"].value_counts()
-    output_path = os.path.join(output_dir, "csv_label_count.csv")
-    action_counts.to_csv(output_path)
+    strokes_counts = df["Strokes"].value_counts()
+
+    labels_count = pd.concat([action_counts, strokes_counts])
+    
+    output_path = os.path.join(output_dir, "csv_labels_count.csv")
+    labels_count.to_csv(output_path)
 
 def main():
     version_name= "2_simplified_labels"
@@ -116,7 +118,7 @@ def main():
     list_empty_labels(data, output_dir)
     plot_action_distribution(df, output_dir)
     plot_type_action_correlation(df, output_dir)
-    count_action_occurrences(df, output_dir)
+    count_labels(df, output_dir)
     plot_labels_per_event(data, output_dir)
 
 if __name__ == "__main__":
