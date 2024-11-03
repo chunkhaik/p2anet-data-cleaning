@@ -145,7 +145,42 @@ def translate_labels(input_path, output_path):
 
     print(f'[3] data translation complete, saved to {output_path}')
 
+def combine_labels(input_path, output_path):
+    """
+    Combines label parts based on the value of label2.
+    If label2 is 'yes', combines label2 and label3 into 'serve'.
+    Otherwise, removes label2 from the label.
+    
+    Parameters:
+    - label_parts (list): List of label parts split by '_'.
+    
+    Returns:
+    - str: The modified label string.
+    """
+    with open(input_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
+    print(f'[4] simplifying labels from {input_path}')
+
+    for video in data:
+        for event in video["events"]:
+            label_parts = event["label"].split('_')
+            
+            if len(label_parts) < 3:
+                continue
+            
+            label1, label2, label3 = label_parts[0], label_parts[1], label_parts[2]
+            
+            if label2 == "yes":
+                event["label"] = f"{label1}_serve"
+            else:
+                event["label"] = f"{label1}_{label3}"
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+    print(f'[4] label simplification complete, saved to {output_path}')
+    
 def process_dataset(dataset_version, videos_to_skip):
     """
     Processes a single dataset version by decoding labels and reformatting data.
@@ -159,10 +194,12 @@ def process_dataset(dataset_version, videos_to_skip):
     video_info_path = f"data/{dataset_version}_0_info.json"
     reformatted_output_path = f"data/{dataset_version}_2_reformatted.json"
     translated_output_path = f"data/{dataset_version}_3_translated.json"
+    simplified_output_path = f"data/{dataset_version}_4_simplified.json"
 
     decode_labels(original_json_path, decoded_json_path)
     reformat_data(video_info_path, decoded_json_path, reformatted_output_path, videos_to_skip)
     translate_labels(reformatted_output_path, translated_output_path)
+    combine_labels(translated_output_path, simplified_output_path)
 
 def main():
     dataset_configs = {
