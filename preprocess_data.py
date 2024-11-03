@@ -83,12 +83,12 @@ def reformat_data(video_info_path, video_json_path, output_json_path, skip_video
             end_frame = round(action["end_id"] * video_info["Frame Rate (FPS)"])
 
             label = "_".join(action["label_names"])
-            outcome = "in"  # TODO: fix hard-coded outcome if needed
+            # outcome = "in"  # TODO: fix hard-coded outcome if needed
 
             event = {
                 "frame": start_frame,
                 "label": label,
-                "outcome": outcome
+                # "outcome": outcome
             }
             combined_video["events"].append(event)
 
