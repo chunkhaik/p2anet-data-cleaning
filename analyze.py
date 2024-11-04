@@ -84,6 +84,9 @@ def plot_type_action_correlation(df, output_dir):
     df["Strokes"] = df["Strokes"].str.strip()
     df["Action"] = df["Action"].str.strip()
     
+    print(df['Action'].unique())
+    print(df['Strokes'].unique())
+    
     df = df.dropna(subset=["Strokes", "Action"])
 
     type_action_correlation = pd.crosstab(df["Strokes"], df["Action"])

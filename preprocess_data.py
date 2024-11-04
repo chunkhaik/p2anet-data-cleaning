@@ -162,6 +162,8 @@ def combine_labels(input_path, output_path):
 
     print(f'[4] simplifying labels from {input_path}')
 
+    serve_keywords = ['normal', 'side-spin', 'hook', 'reverse-pendulum', 'neutral', 'spin/no-spin', 'squatting']
+    
     for video in data:
         for event in video["events"]:
             label_parts = event["label"].split('_')
@@ -171,7 +173,7 @@ def combine_labels(input_path, output_path):
             
             label1, label2, label3 = label_parts[0], label_parts[1], label_parts[2]
             
-            if label2 == "yes":
+            if label3 in serve_keywords:
                 event["label"] = f"{label1}_serve"
             else:
                 event["label"] = f"{label1}_{label3}"

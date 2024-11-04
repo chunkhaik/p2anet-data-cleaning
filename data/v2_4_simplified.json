@@ -2179,7 +2179,7 @@
             },
             {
                 "frame": 8488,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             }
         ]
     },
@@ -2958,7 +2958,7 @@
         "events": [
             {
                 "frame": 115,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 143,
@@ -3474,7 +3474,7 @@
             },
             {
                 "frame": 1790,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             },
             {
                 "frame": 1817,
@@ -3510,7 +3510,7 @@
             },
             {
                 "frame": 3174,
-                "label": "backhand_serve"
+                "label": "backhand_step-around-drive"
             },
             {
                 "frame": 3607,
@@ -4675,7 +4675,7 @@
             },
             {
                 "frame": 3547,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 3569,
@@ -4889,7 +4889,7 @@
             },
             {
                 "frame": 2507,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2832,
@@ -4973,7 +4973,7 @@
             },
             {
                 "frame": 6318,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6340,
@@ -6131,7 +6131,7 @@
             },
             {
                 "frame": 3424,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3463,
@@ -6167,7 +6167,7 @@
             },
             {
                 "frame": 5760,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6092,
@@ -6349,7 +6349,7 @@
             },
             {
                 "frame": 6737,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6770,
@@ -6738,7 +6738,7 @@
         "events": [
             {
                 "frame": 1431,
-                "label": "backhand_normal"
+                "label": "backhand_serve"
             },
             {
                 "frame": 1467,
@@ -7080,7 +7080,7 @@
             },
             {
                 "frame": 6612,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6651,
@@ -7286,7 +7286,7 @@
             },
             {
                 "frame": 1681,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1727,
@@ -7318,7 +7318,7 @@
             },
             {
                 "frame": 4041,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 4624,
@@ -7750,7 +7750,7 @@
             },
             {
                 "frame": 2805,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2836,
@@ -8665,7 +8665,7 @@
             },
             {
                 "frame": 7932,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 8210,
@@ -10009,7 +10009,7 @@
             },
             {
                 "frame": 5358,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5394,
@@ -10122,7 +10122,7 @@
             },
             {
                 "frame": 5442,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6018,
@@ -10207,7 +10207,7 @@
             },
             {
                 "frame": 2975,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3012,
@@ -10836,7 +10836,7 @@
             },
             {
                 "frame": 7346,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7397,
@@ -11070,7 +11070,7 @@
             },
             {
                 "frame": 3755,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3798,
@@ -14168,7 +14168,7 @@
             },
             {
                 "frame": 5253,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5613,
@@ -15691,7 +15691,7 @@
             },
             {
                 "frame": 1739,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2091,
@@ -15755,7 +15755,7 @@
             },
             {
                 "frame": 6313,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 6335,
@@ -17691,7 +17691,7 @@
             },
             {
                 "frame": 5754,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 5776,
@@ -19729,7 +19729,7 @@
             },
             {
                 "frame": 1818,
-                "label": "forehand_serve"
+                "label": "forehand_"
             },
             {
                 "frame": 1848,
@@ -19954,7 +19954,7 @@
             },
             {
                 "frame": 5922,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5958,
@@ -19979,7 +19979,7 @@
         "events": [
             {
                 "frame": 48,
-                "label": "backhand_serve"
+                "label": "backhand_smash"
             },
             {
                 "frame": 67,
@@ -20027,7 +20027,7 @@
             },
             {
                 "frame": 3814,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3844,
@@ -20438,7 +20438,7 @@
             },
             {
                 "frame": 5284,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5328,
@@ -20462,7 +20462,7 @@
             },
             {
                 "frame": 6494,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6530,
@@ -20506,7 +20506,7 @@
             },
             {
                 "frame": 7831,
-                "label": "forehand_serve"
+                "label": "forehand_long-push"
             },
             {
                 "frame": 8117,
@@ -20930,7 +20930,7 @@
             },
             {
                 "frame": 1894,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1932,
@@ -20946,7 +20946,7 @@
             },
             {
                 "frame": 2627,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2670,
@@ -21701,7 +21701,7 @@
             },
             {
                 "frame": 1538,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1564,
@@ -22048,7 +22048,7 @@
             },
             {
                 "frame": 1201,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1232,
@@ -22282,7 +22282,7 @@
             },
             {
                 "frame": 1192,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1240,
@@ -23931,7 +23931,7 @@
             },
             {
                 "frame": 2658,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 2693,
@@ -24125,7 +24125,7 @@
             },
             {
                 "frame": 7204,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7230,
@@ -25021,7 +25021,7 @@
             },
             {
                 "frame": 5710,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6040,
@@ -25272,7 +25272,7 @@
         "events": [
             {
                 "frame": 784,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 823,
@@ -25312,7 +25312,7 @@
             },
             {
                 "frame": 2431,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2474,
@@ -25320,7 +25320,7 @@
             },
             {
                 "frame": 2975,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3009,
@@ -25348,11 +25348,11 @@
             },
             {
                 "frame": 5445,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5486,
-                "label": "forehand_serve"
+                "label": "forehand_drive"
             },
             {
                 "frame": 6087,
@@ -26742,7 +26742,7 @@
             },
             {
                 "frame": 1608,
-                "label": "forehand_serve"
+                "label": "forehand_short-push"
             },
             {
                 "frame": 1635,
@@ -27606,7 +27606,7 @@
             },
             {
                 "frame": 2270,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2309,
@@ -28963,7 +28963,7 @@
             },
             {
                 "frame": 6927,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6970,
@@ -32059,7 +32059,7 @@
             },
             {
                 "frame": 6509,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6535,
@@ -33725,7 +33725,7 @@
             },
             {
                 "frame": 297,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             },
             {
                 "frame": 317,
@@ -34235,7 +34235,7 @@
             },
             {
                 "frame": 972,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1029,
@@ -34784,7 +34784,7 @@
             },
             {
                 "frame": 3318,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 3687,
@@ -34796,7 +34796,7 @@
             },
             {
                 "frame": 3783,
-                "label": "backhand_serve"
+                "label": "backhand_control"
             },
             {
                 "frame": 4106,
@@ -35037,7 +35037,7 @@
             },
             {
                 "frame": 8284,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 8346,
@@ -35755,7 +35755,7 @@
             },
             {
                 "frame": 6857,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6905,
@@ -37250,7 +37250,7 @@
             },
             {
                 "frame": 4801,
-                "label": "forehand_serve"
+                "label": "forehand_drive"
             },
             {
                 "frame": 4825,
@@ -37355,7 +37355,7 @@
         "events": [
             {
                 "frame": 121,
-                "label": "forehand_serve"
+                "label": "forehand_short-push"
             },
             {
                 "frame": 149,
@@ -37472,7 +37472,7 @@
         "events": [
             {
                 "frame": 81,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             }
         ]
     },
@@ -41472,7 +41472,7 @@
             },
             {
                 "frame": 3534,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 3564,
@@ -44098,7 +44098,7 @@
             },
             {
                 "frame": 7863,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7885,
@@ -44599,7 +44599,7 @@
             },
             {
                 "frame": 4131,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 4511,
@@ -45039,7 +45039,7 @@
             },
             {
                 "frame": 6412,
-                "label": "backhand_serve"
+                "label": "backhand_smash"
             },
             {
                 "frame": 7750,
@@ -45100,7 +45100,7 @@
             },
             {
                 "frame": 2021,
-                "label": "backhand_serve"
+                "label": "backhand_smash"
             },
             {
                 "frame": 2781,
@@ -45189,7 +45189,7 @@
             },
             {
                 "frame": 1365,
-                "label": "forehand_serve"
+                "label": "forehand_drive"
             },
             {
                 "frame": 1396,
@@ -45249,7 +45249,7 @@
             },
             {
                 "frame": 6968,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7003,
@@ -45717,11 +45717,11 @@
             },
             {
                 "frame": 4840,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5467,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5494,
@@ -45794,7 +45794,7 @@
             },
             {
                 "frame": 1947,
-                "label": "backhand_serve"
+                "label": "backhand_smash"
             },
             {
                 "frame": 1972,
@@ -45810,7 +45810,7 @@
             },
             {
                 "frame": 2797,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2825,
@@ -45826,7 +45826,7 @@
             },
             {
                 "frame": 3334,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3372,
@@ -46812,7 +46812,7 @@
             },
             {
                 "frame": 4492,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 4523,
@@ -46852,7 +46852,7 @@
             },
             {
                 "frame": 7209,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7245,
@@ -46986,7 +46986,7 @@
         "events": [
             {
                 "frame": 2769,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2796,
@@ -47006,7 +47006,7 @@
             },
             {
                 "frame": 4296,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 4325,
@@ -47123,7 +47123,7 @@
             },
             {
                 "frame": 5776,
-                "label": "forehand_serve"
+                "label": "forehand_short-push"
             },
             {
                 "frame": 5806,
@@ -47697,7 +47697,7 @@
             },
             {
                 "frame": 1958,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1989,
@@ -47729,7 +47729,7 @@
             },
             {
                 "frame": 3998,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 4031,
@@ -48285,7 +48285,7 @@
             },
             {
                 "frame": 1564,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1595,
@@ -48580,7 +48580,7 @@
             },
             {
                 "frame": 2393,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2421,
@@ -49355,7 +49355,7 @@
             },
             {
                 "frame": 6604,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6632,
@@ -49512,7 +49512,7 @@
             },
             {
                 "frame": 6449,
-                "label": "forehand_serve"
+                "label": "forehand_short-push"
             }
         ]
     },
@@ -49589,7 +49589,7 @@
             },
             {
                 "frame": 3676,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3706,
@@ -49843,7 +49843,7 @@
             },
             {
                 "frame": 4271,
-                "label": "forehand_serve"
+                "label": "forehand_drive"
             },
             {
                 "frame": 6623,
@@ -49851,7 +49851,7 @@
             },
             {
                 "frame": 6823,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6856,
@@ -51700,7 +51700,7 @@
             },
             {
                 "frame": 6511,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6549,
@@ -52641,7 +52641,7 @@
             },
             {
                 "frame": 4185,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 4221,
@@ -53142,7 +53142,7 @@
             },
             {
                 "frame": 1579,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1611,
@@ -54279,7 +54279,7 @@
             },
             {
                 "frame": 7518,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             },
             {
                 "frame": 8001,
@@ -54805,7 +54805,7 @@
             },
             {
                 "frame": 5284,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 5307,
@@ -58204,7 +58204,7 @@
         "events": [
             {
                 "frame": 212,
-                "label": "forehand_serve"
+                "label": "forehand_drive"
             },
             {
                 "frame": 238,
@@ -62810,7 +62810,7 @@
             },
             {
                 "frame": 5169,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5222,
@@ -65445,7 +65445,7 @@
             },
             {
                 "frame": 6565,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6600,
@@ -65615,7 +65615,7 @@
             },
             {
                 "frame": 1049,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 1104,
@@ -67562,7 +67562,7 @@
             },
             {
                 "frame": 1739,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1785,
@@ -67682,7 +67682,7 @@
             },
             {
                 "frame": 8051,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 8099,
@@ -68062,7 +68062,7 @@
             },
             {
                 "frame": 3453,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3508,
@@ -68402,7 +68402,7 @@
             },
             {
                 "frame": 527,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 586,
@@ -71678,7 +71678,7 @@
             },
             {
                 "frame": 3970,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 4377,
@@ -72318,7 +72318,7 @@
             },
             {
                 "frame": 2901,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3313,
@@ -72346,7 +72346,7 @@
             },
             {
                 "frame": 5329,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5368,
@@ -74135,7 +74135,7 @@
             },
             {
                 "frame": 6506,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6553,
@@ -74595,7 +74595,7 @@
             },
             {
                 "frame": 1336,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1368,
@@ -75729,7 +75729,7 @@
             },
             {
                 "frame": 2996,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             },
             {
                 "frame": 3016,
@@ -76081,7 +76081,7 @@
             },
             {
                 "frame": 801,
-                "label": "forehand_serve"
+                "label": "forehand_drive"
             },
             {
                 "frame": 826,
@@ -77331,7 +77331,7 @@
             },
             {
                 "frame": 7035,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7082,
@@ -77412,7 +77412,7 @@
             },
             {
                 "frame": 4505,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 4551,
@@ -78372,7 +78372,7 @@
             },
             {
                 "frame": 2603,
-                "label": "backhand_normal"
+                "label": "backhand_serve"
             },
             {
                 "frame": 2660,
@@ -84923,7 +84923,7 @@
             },
             {
                 "frame": 7119,
-                "label": "backhand_hook"
+                "label": "backhand_serve"
             },
             {
                 "frame": 7139,
@@ -86230,7 +86230,7 @@
             },
             {
                 "frame": 8392,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             },
             {
                 "frame": 8412,
@@ -87288,7 +87288,7 @@
             },
             {
                 "frame": 7167,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 7185,
@@ -87826,7 +87826,7 @@
             },
             {
                 "frame": 3502,
-                "label": "backhand_normal"
+                "label": "backhand_serve"
             },
             {
                 "frame": 3546,
@@ -88480,7 +88480,7 @@
             },
             {
                 "frame": 3129,
-                "label": "backhand_normal"
+                "label": "backhand_serve"
             },
             {
                 "frame": 3162,
@@ -90033,7 +90033,7 @@
             },
             {
                 "frame": 6375,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 6399,
@@ -90195,7 +90195,7 @@
             },
             {
                 "frame": 2128,
-                "label": "backhand_reverse-pendulum"
+                "label": "backhand_serve"
             },
             {
                 "frame": 2161,
@@ -90211,7 +90211,7 @@
             },
             {
                 "frame": 4919,
-                "label": "backhand_reverse-pendulum"
+                "label": "backhand_serve"
             },
             {
                 "frame": 4949,
@@ -90231,11 +90231,11 @@
             },
             {
                 "frame": 6519,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6940,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6977,
@@ -90756,7 +90756,7 @@
             },
             {
                 "frame": 1435,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1463,
@@ -92220,7 +92220,7 @@
             },
             {
                 "frame": 1448,
-                "label": "backhand_serve"
+                "label": "backhand_smash"
             },
             {
                 "frame": 2009,
@@ -95260,7 +95260,7 @@
             },
             {
                 "frame": 5909,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5945,
@@ -95957,7 +95957,7 @@
             },
             {
                 "frame": 1169,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1196,
@@ -96005,7 +96005,7 @@
             },
             {
                 "frame": 3063,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3094,
@@ -96211,7 +96211,7 @@
             },
             {
                 "frame": 967,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1007,
@@ -96223,7 +96223,7 @@
             },
             {
                 "frame": 1434,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1476,
@@ -96970,7 +96970,7 @@
             },
             {
                 "frame": 582,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             },
             {
                 "frame": 608,
@@ -97094,7 +97094,7 @@
             },
             {
                 "frame": 6217,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6254,
@@ -97110,7 +97110,7 @@
             },
             {
                 "frame": 6931,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6970,
@@ -97799,7 +97799,7 @@
             },
             {
                 "frame": 7498,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7539,
@@ -98118,7 +98118,7 @@
             },
             {
                 "frame": 520,
-                "label": "backhand_serve"
+                "label": "backhand_control"
             },
             {
                 "frame": 1406,
@@ -99558,7 +99558,7 @@
             },
             {
                 "frame": 2374,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 2407,
@@ -99574,7 +99574,7 @@
             },
             {
                 "frame": 3360,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             },
             {
                 "frame": 3959,
@@ -99764,7 +99764,7 @@
             },
             {
                 "frame": 5296,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5340,
@@ -100204,7 +100204,7 @@
             },
             {
                 "frame": 1517,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             },
             {
                 "frame": 4084,
@@ -101474,7 +101474,7 @@
             },
             {
                 "frame": 7134,
-                "label": "forehand_normal"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7155,
@@ -103788,7 +103788,7 @@
             },
             {
                 "frame": 4359,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5045,
@@ -106467,7 +106467,7 @@
         "events": [
             {
                 "frame": 1197,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1224,
@@ -106523,7 +106523,7 @@
             },
             {
                 "frame": 3945,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3988,
@@ -106571,7 +106571,7 @@
             },
             {
                 "frame": 6171,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6201,
@@ -106579,7 +106579,7 @@
             },
             {
                 "frame": 6602,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6634,
@@ -106620,7 +106620,7 @@
             },
             {
                 "frame": 845,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 878,
@@ -108053,7 +108053,7 @@
             },
             {
                 "frame": 5524,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5563,
@@ -110437,7 +110437,7 @@
             },
             {
                 "frame": 6260,
-                "label": "backhand_normal"
+                "label": "backhand_serve"
             },
             {
                 "frame": 6289,
@@ -110473,7 +110473,7 @@
             },
             {
                 "frame": 8244,
-                "label": "backhand_normal"
+                "label": "backhand_serve"
             },
             {
                 "frame": 8281,
@@ -110937,7 +110937,7 @@
             },
             {
                 "frame": 3898,
-                "label": "forehand_serve"
+                "label": "forehand_drive"
             },
             {
                 "frame": 6587,
@@ -111200,7 +111200,7 @@
             },
             {
                 "frame": 6720,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6754,
@@ -112174,7 +112174,7 @@
             },
             {
                 "frame": 6333,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6376,
@@ -112565,7 +112565,7 @@
             },
             {
                 "frame": 5736,
-                "label": "forehand_serve"
+                "label": "forehand_short-push"
             },
             {
                 "frame": 5762,
@@ -115100,7 +115100,7 @@
             },
             {
                 "frame": 3139,
-                "label": "forehand_serve"
+                "label": "forehand_drive"
             },
             {
                 "frame": 3984,
@@ -117833,7 +117833,7 @@
             },
             {
                 "frame": 4543,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 4574,
@@ -117841,7 +117841,7 @@
             },
             {
                 "frame": 5029,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5553,
@@ -118673,7 +118673,7 @@
         "events": [
             {
                 "frame": 122,
-                "label": "forehand_serve"
+                "label": "forehand_short-push"
             },
             {
                 "frame": 150,
@@ -119356,7 +119356,7 @@
             },
             {
                 "frame": 5100,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5131,
@@ -120717,7 +120717,7 @@
             },
             {
                 "frame": 1247,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1283,
@@ -121344,7 +121344,7 @@
             },
             {
                 "frame": 5186,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 5221,
@@ -122027,7 +122027,7 @@
             },
             {
                 "frame": 6524,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6818,
@@ -122256,7 +122256,7 @@
             },
             {
                 "frame": 8149,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 8177,
@@ -123305,7 +123305,7 @@
             },
             {
                 "frame": 8540,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             }
         ]
     },
@@ -123777,7 +123777,7 @@
             },
             {
                 "frame": 6750,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 6868,
@@ -125043,7 +125043,7 @@
             },
             {
                 "frame": 2529,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2564,
@@ -125055,7 +125055,7 @@
             },
             {
                 "frame": 2851,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 2893,
@@ -125619,7 +125619,7 @@
             },
             {
                 "frame": 4090,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 4578,
@@ -129076,7 +129076,7 @@
             },
             {
                 "frame": 3188,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3842,
@@ -129339,7 +129339,7 @@
             },
             {
                 "frame": 3550,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 3575,
@@ -129624,7 +129624,7 @@
             },
             {
                 "frame": 1668,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1697,
@@ -130141,7 +130141,7 @@
             },
             {
                 "frame": 8140,
-                "label": "forehand_spin/no-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 8169,
@@ -130578,7 +130578,7 @@
         "events": [
             {
                 "frame": 1443,
-                "label": "forehand_reverse-pendulum"
+                "label": "forehand_serve"
             },
             {
                 "frame": 1470,
@@ -131679,7 +131679,7 @@
             },
             {
                 "frame": 6358,
-                "label": "forehand_serve"
+                "label": "forehand_step-around-drive"
             },
             {
                 "frame": 6380,
@@ -133631,7 +133631,7 @@
             },
             {
                 "frame": 7014,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7549,
@@ -135077,7 +135077,7 @@
             },
             {
                 "frame": 166,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 514,
@@ -135161,7 +135161,7 @@
             },
             {
                 "frame": 7644,
-                "label": "forehand_side-spin"
+                "label": "forehand_serve"
             },
             {
                 "frame": 7709,
@@ -136699,7 +136699,7 @@
             },
             {
                 "frame": 2003,
-                "label": "backhand_serve"
+                "label": "backhand_drive"
             },
             {
                 "frame": 2024,
