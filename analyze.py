@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import csv
+from sklearn.cluster import KMeans
 
 plt.rcParams['font.family'] = 'Noto Sans CJK JP'
 
@@ -22,7 +23,6 @@ def load_data(json_paths):
 def save_plot(fig, output_path):
     fig.tight_layout()
     fig.savefig(output_path, format="jpg", dpi=300)
-    print(f"Plot saved as {output_path}")
     plt.close(fig)
 
 def plot_heatmap(data, title, output_path, cmap="Blues"):
@@ -30,7 +30,6 @@ def plot_heatmap(data, title, output_path, cmap="Blues"):
     sns.heatmap(data, annot=True, fmt="d", cmap=cmap)
     plt.title(title)
     plt.savefig(output_path, format="jpg", dpi=300)
-    print(f"{title} plot saved as {output_path}")
     plt.close()
 
 """
@@ -76,13 +75,22 @@ def plot_action_distribution(df, output_dir):
         # "Negation": df["Negation"].value_counts(),
         "Action": df["Action"].value_counts()
     }
-    fig, axes = plt.subplots(1, 3, figsize=(18, 5))
+    fig, axes = plt.subplots(1, 2, figsize=(18, 5))
     for ax, (label, count) in zip(axes, counts.items()):
         count.plot(kind='bar', ax=ax, title=f"{label} Distribution")
     save_plot(fig, os.path.join(output_dir, "plot_action_distribution.jpg"))
 
 def plot_type_action_correlation(df, output_dir):
+    df["Strokes"] = df["Strokes"].str.strip()
+    df["Action"] = df["Action"].str.strip()
+    
+    df = df.dropna(subset=["Strokes", "Action"])
+
     type_action_correlation = pd.crosstab(df["Strokes"], df["Action"])
+    
+    type_action_correlation = type_action_correlation.loc[(type_action_correlation.sum(axis=1) > 10), 
+                                                          (type_action_correlation.sum(axis=0) > 10)]
+    
     plot_heatmap(type_action_correlation, "Strokes vs. Action Correlation", os.path.join(output_dir, "plot_strokes_action_correlation.jpg"))
 
 def plot_labels_per_event(data, output_dir):
@@ -104,6 +112,31 @@ def count_labels(df, output_dir):
     output_path = os.path.join(output_dir, "csv_labels_count.csv")
     labels_count.to_csv(output_path)
 
+def plot_stroke_transition_matrix(df, output_dir):
+    stroke_categories = ["backhand", "forehand"]
+    
+    df["Strokes"].replace(["", None], pd.NA, inplace=True)
+    df["Next_Stroke"] = df["Strokes"].shift(-1)
+    df["Next_Stroke"].replace(["", None], pd.NA, inplace=True)
+    
+    df.dropna(subset=["Strokes", "Next_Stroke"], inplace=True)
+    
+    df["Strokes"] = pd.Categorical(df["Strokes"], categories=stroke_categories)
+    df["Next_Stroke"] = pd.Categorical(df["Next_Stroke"], categories=stroke_categories)
+    
+    transition_matrix = pd.crosstab(df["Strokes"], df["Next_Stroke"]).astype(float)
+    
+    transition_matrix = transition_matrix.div(transition_matrix.sum(axis=1), axis=0).fillna(0).round(2)
+    
+    fig, ax = plt.subplots(figsize=(10, 8))
+    sns.heatmap(transition_matrix, annot=True, cmap="Blues", ax=ax, vmin=0, vmax=1)
+    ax.set_title("Stroke Transition Matrix")
+    ax.set_xlabel("Next_Stroke")
+    ax.set_ylabel("Strokes")
+    
+    output_path = os.path.join(output_dir, "stroke_transition_matrix.jpg")
+    save_plot(fig, output_path)
+
 def main():
     version_name= "2_simplified_labels"
     output_dir = f"analysis/{version_name}"
@@ -120,6 +153,7 @@ def main():
     plot_type_action_correlation(df, output_dir)
     count_labels(df, output_dir)
     plot_labels_per_event(data, output_dir)
+    plot_stroke_transition_matrix(df, output_dir)
 
 if __name__ == "__main__":
     main()
